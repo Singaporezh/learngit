@@ -8,15 +8,12 @@ public class MethodDemo2 {
 	public static void main(String[] args) {
 		UserService us = new UserService();
 		/*
-		 * Í¨¹ý¼üÅÌÊäÈëÃüÁîÖ´ÐÐ²Ù×÷
-		 * ÊäÈëupdateÃüÁî¾Íµ÷ÓÃupdate·½·¨
-		 * ÊäÈëdeleteÃüÁî¾Íµ÷ÓÃdelete·½·¨
-		 * ...
+		.
 		 */
 		try {
 			BufferedReader br = new BufferedReader(
 					new InputStreamReader(System.in));
-			System.out.println("ÇëÊäÈëÃüÁî:");
+			System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½:");
 			String action = br.readLine();
 			/*if("update".equals(action)){
 				us.update();
@@ -28,8 +25,8 @@ public class MethodDemo2 {
 				us.find();
 			}*/
 			/*
-			 * action¾ÍÊÇ·½·¨Ãû³Æ£¬ ¶¼Ã»ÓÐ²ÎÊý--->Í¨¹ý·½·¨µÄ·´Éä²Ù×÷¾Í»á¼òµ¥ºÜ¶à
-			 * Í¨¹ý·½·¨¶ÔÏóÈ»ºó½øÐÐ·´Éä²Ù×÷
+			 * actionï¿½ï¿½ï¿½Ç·ï¿½ï¿½ï¿½ï¿½ï¿½Æ£ï¿½ ï¿½ï¿½Ã»ï¿½Ð²ï¿½ï¿½ï¿½--->Í¨ï¿½ï¿½Ä·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í»ï¿½òµ¥ºÜ¶ï¿½
+			 * Í¨ï¿½ï¿½ï¿½ï¿½ï¿½È»ï¿½ï¿½ï¿½ï¿½Ð·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 			 */
 			Class c = us.getClass();
 			Method m = c.getMethod(action);
